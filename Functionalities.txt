@@ -1,0 +1,23 @@
+Home
+About 
+acomodation types
+offers
+gallery
+search
+news & media
+contact
+reservations
+admin page
+Login & signup
+
+
+refer minimum 4 similar hotel websites
+add small screeshot and write small description for each website.
+add a summery table
+
+hotels assign to columns
+features assign to rowsa
+UI has more weight
+use different style sheet
+
+home, gallery, products, reservation, 
