@@ -21,7 +21,7 @@
         <div class="nav-section">
             <!-- logo -->
             <a href="#" class="logo">
-                <img src="images/4.jpg" alt="logo">
+                <img src="images/4.png" alt="logo">
             </a>
 
             <!-- navigation links -->
@@ -40,6 +40,13 @@
 
 
         <!-- *******************************Image slide show ******************************* -->
+        
+        <!-- load default image when reload -->
+        <script>
+            window.addEventListener("load", function () {
+                currentSlide(1);
+            });
+        </script>
 
         <div class="slideshow-container">
             <div class="mySlides fade">
@@ -57,6 +64,7 @@
                 <img src="images/img3.jpg" style="width:100%">
                 <div class="text">About Us</div>
             </div>
+
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
         </div>
@@ -96,58 +104,91 @@
 
         <!-- ******************************* Image Cards ******************************* -->
 
-        <div class="card">
-            <div class="image">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+        <div class="card-container">
+            <div class="card">
+                <div class="image">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+                </div>
+                <div class="title">
+                    <h1>Write title Here</h1>
+                </div>
+                <div class="des">
+                    <p>You can Add Desccription Here...</p>
+                    <button>Read More...</button>
+                </div>
             </div>
-            <div class="title">
-                <h1>Write title Here</h1>
-            </div>
-            <div class="des">
-                <p>You can Add Desccription Here...</p>
-                <button>Read More...</button>
-            </div>
-        </div>
-        <!--cards -->
+            <!--cards -->
 
-        <div class="card">
-            <div class="image">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+            <div class="card">
+                <div class="image">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+                </div>
+                <div class="title">
+                    <h1>Write title Here</h1>
+                </div>
+                <div class="des">
+                    <p>You can Add Desccription Here...</p>
+                    <button>Read More...</button>
+                </div>
             </div>
-            <div class="title">
-                <h1>Write title Here</h1>
-            </div>
-            <div class="des">
-                <p>You can Add Desccription Here...</p>
-                <button>Read More...</button>
-            </div>
-        </div>
-        <!--cards -->
+            <!--cards -->
 
-        <div class="card">
-            <div class="image">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+            <div class="card">
+                <div class="image">
+                    <img src="images/img5.jpg">
+                </div>
+                <div class="title">
+                    <h1>Write title Here</h1>
+                </div>
+                <div class="des">
+                    <p>You can Add Desccription Here...</p>
+                    <button>Read More...</button>
+                </div>
             </div>
-            <div class="title">
-                <h1>Write title Here</h1>
-            </div>
-            <div class="des">
-                <p>You can Add Desccription Here...</p>
-                <button>Read More...</button>
-            </div>
-        </div>
-        <!--cards -->
+            <!--cards -->
 
-        <div class="card">
-            <div class="image">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+            <div class="card">
+                <div class="image">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+                </div>
+                <div class="title">
+                    <h1>Write title Here</h1>
+                </div>
+                <div class="des">
+                    <p>You can Add Desccription Here...</p>
+                    <button>Read More...</button>
+                </div>
             </div>
-            <div class="title">
-                <h1>Write title Here</h1>
-            </div>
-            <div class="des">
-                <p>You can Add Desccription Here...</p>
-                <button>Read More...</button>
+            <!--cards -->
+        </div>
+
+        <hr>
+
+
+        <!-- ******************************* Footer ******************************* -->
+
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h1 class="logo-text"><span>Hotel</span> Asia</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatibus at assumenda,
+                        unde error, illum laudantium, perferendis sed aut asperiores quisquam qui voluptate voluptatum
+                        suscipit quis expedita doloribus quaerat non?
+                    </p>
+                    <div class="contact">
+                        <span><i class="fas fa-phone"></i> &nbsp; 011-1234567</span>
+                        <span><i class="fas fa-envelope"></i> &nbsp;
+                    </div>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
-        <!--cards -->
