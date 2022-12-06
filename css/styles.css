@@ -276,7 +276,6 @@ h1 {
 
 /* full footer */
 .footer-container {
-  background-color: #d0d0a3;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
@@ -287,15 +286,16 @@ h1 {
 .footer-content {
   display: flex;
   text-decoration: none;
-  color: #f2f2f2;
+  color: #ffffff;
+  font-weight: 600;
   background: linear-gradient(to top, #8d8b8b,  #d0d0a3);
 }
 
 /* footer links */
 .footer-content li a {
   text-decoration: none;
-  color: #f2f2f2;
-  font-weight: 500;
+  color: #ffffff;
+  font-weight: 600;
 }
 .footer-content li a:hover {
   color: #5c5a5a;
@@ -330,9 +330,18 @@ h1 {
   width: 200px;
   height: 30px;
   border-radius: 3px;
-  border: 0px solid #707070;
   border-style: none;
   margin-top: 0px;
   margin-bottom: 40px;
   padding: 5px;
+}
+.footer-content input:focus {
+  outline: 5px solid #cca558;
+}
+
+.copyright{
+	background: #cca558;
+	height: 30px;
+  margin-top: -40px;
+	text-align: center;
 }

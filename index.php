@@ -80,7 +80,7 @@
 
         <div>
             <div class="top-topics">
-                <h1>Hotel Asia</h1>
+                <h1>Hotel Indigo</h1>
                 <p>Hotel Asia is a 3-star hotel located in the heart of Colombo, Sri Lanka. It is a 5-minute walk from
                     the famous Galle Face Green and the National Museum. The hotel is 1.5 km from the Colombo Fort
                     Railway Station and 1.6 km from the Colombo National Hospital. The Bandaranaike International
@@ -192,5 +192,10 @@
                         </div>
                     </li>
                 </ul>
+            </div>
+
+            <!-- copyright -->
+            <div class="copyright">
+                <p>Copyright 2022 - HotelIndigo / hotelindigo@gmail.com</p>
             </div>
         </div>
