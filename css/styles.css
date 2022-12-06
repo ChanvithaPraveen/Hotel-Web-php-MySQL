@@ -22,7 +22,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: white;
+  background-color: rgb(255, 255, 251);
   font-family: "Open Sans", sans-serif;
 }
 
@@ -128,7 +128,7 @@ nav ul li a:hover {
 .prev:hover,
 .next:hover {
   background-color: #cca558;
-  color: #f3efe5;;
+  color: #f3efe5;
 }
 
 /* Caption text */
@@ -193,6 +193,7 @@ nav ul li a:hover {
   padding-bottom: 0px;
 }
 
+/* horizontal breaks */
 hr {
   border: 0;
   height: 5px;
@@ -205,6 +206,7 @@ hr {
 
 /* ******************************* Image Cards *******************************  */
 
+/* image card full container */
 .card-container {
   /* width: 100%; */
   display: flex;
@@ -216,6 +218,7 @@ hr {
   padding-bottom: 0px;
 }
 
+/* individual card */
 .card {
   width: 20%;
   display: inline-block;
@@ -247,12 +250,12 @@ h1 {
 .des {
   padding: 3px;
   text-align: center;
-
   padding-top: 10px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
+/* see more button */
 .card-container button {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -267,4 +270,69 @@ h1 {
   color: white;
   transition: 0.5s;
   cursor: pointer;
+}
+
+/* ******************************* Footer *******************************  */
+
+/* full footer */
+.footer-container {
+  background-color: #d0d0a3;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* total footer container without image */
+.footer-content {
+  display: flex;
+  text-decoration: none;
+  color: #f2f2f2;
+  background: linear-gradient(to top, #8d8b8b,  #d0d0a3);
+}
+
+/* footer links */
+.footer-content li a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-weight: 500;
+}
+.footer-content li a:hover {
+  color: #5c5a5a;
+  transition: 0.5s ease;
+}
+
+/* footer logo */
+.footer-content img {
+  width: 200px;
+  height: 70px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  padding-bottom: 0px;
+}
+
+/* footer unordered list */
+.footer-content ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+/* subscribe */
+.footer-content input {
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  border: 0px solid #707070;
+  border-style: none;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  padding: 5px;
 }

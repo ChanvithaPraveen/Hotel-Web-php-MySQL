@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
     <link rel="stylesheet" href="css/styles.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
         <div class="nav-section">
             <!-- logo -->
             <a href="#" class="logo">
-                <img src="images/4.png" alt="logo">
+                <img src="images/Hotel_Indigo_logo.png" alt="logo">
             </a>
 
             <!-- navigation links -->
@@ -40,7 +40,7 @@
 
 
         <!-- *******************************Image slide show ******************************* -->
-        
+
         <!-- load default image when reload -->
         <script>
             window.addEventListener("load", function () {
@@ -170,25 +170,27 @@
 
         <!-- ******************************* Footer ******************************* -->
 
-        <div class="footer">
+
+        <div class="footer-container">
+            <!-- footer landscape image -->
+            <div class="footer-image">
+                <img src="images/img5.jpg" alt="footer-image" width="100%" height="200px">
+            </div>
+
+            <!-- footer content -->
             <div class="footer-content">
-                <div class="footer-section about">
-                    <h1 class="logo-text"><span>Hotel</span> Asia</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatibus at assumenda,
-                        unde error, illum laudantium, perferendis sed aut asperiores quisquam qui voluptate voluptatum
-                        suscipit quis expedita doloribus quaerat non?
-                    </p>
-                    <div class="contact">
-                        <span><i class="fas fa-phone"></i> &nbsp; 011-1234567</span>
-                        <span><i class="fas fa-envelope"></i> &nbsp;
-                    </div>
-                    <div class="socials">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
+                <img src="images/Hotel_Indigo_logo.png" alt="logo">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li>
+                        <div class="subscribe">
+                            <p>Subscribe to get Latest Offers</p>
+                            <input type="text" placeholder="Enter Your Email">
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
