@@ -53,6 +53,10 @@ ul a {
   color: #707070;
 }
 
+.active a {
+  background-color: #cca558;
+}
+
 /* logo image */
 .nav-section a img {
   margin-top: 20px;
@@ -79,11 +83,11 @@ ul a {
   padding: 0 22px;
   display: flex;
   font-size: 0.73rem;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 1px;
   border-radius: 2px;
   transition: 0.6s ease;
-  color: black;
+  color: #707070;
 }
 nav ul li a:hover {
   background-color: #cca558;
@@ -164,7 +168,7 @@ nav ul li a:hover {
 }
 .active,
 .dot:hover {
-  background-color: #717171;
+  background-color: #cca558;
 }
 
 /* ******************************* Hotel Asia *******************************  */
@@ -259,15 +263,15 @@ h1 {
 .card-container button {
   margin-top: 30px;
   margin-bottom: 10px;
-  background-color: #f3efe5;
-  border: 2px solid #cca558;
+  background-color: #cca558;
+  border: 2px solid white;
   border-radius: 5px;
   padding: 10px;
 }
 
 .des button:hover {
-  background-color: #cca558;
-  color: white;
+  background-color: #5c5a5a;
+  color: #cca558;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -345,3 +349,12 @@ h1 {
   margin-top: -40px;
 	text-align: center;
 }
+
+
+/* ******************************* Google Map ******************************* */
+
+#map {
+  height: 400px;
+  width: 100%;
+ }
+
