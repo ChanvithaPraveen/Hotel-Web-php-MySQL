@@ -96,6 +96,7 @@
         <!-- map section -->
         <div id="map"></div>
         <script>
+            const map_key = "AIzaSyBmoT6N9We6X1tlQEQDxewt1Ec62ix5ykQ"
             function initMap() {
                 var location = { lat: 6.926945807141634, lng: 79.86547227719338 };
                 var map = new google.maps.Map(document.getElementById('map'), {
@@ -108,7 +109,8 @@
                 });
             }
         </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API&callback=initMap">
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+        
         </script>
 
         <!-- ******************************* Footer ******************************* -->
