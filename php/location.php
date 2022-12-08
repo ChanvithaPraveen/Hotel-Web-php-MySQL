@@ -96,8 +96,10 @@
         <!-- map section -->
         <div id="map"></div>
         <script>
+            import dotenv from 'dotenv';
+            dotenv.config();
             const API_KEY = process.env.API_KEY;
-            console.log(API_KEY);
+            console.log("API_KEY");
             function initMap() {
                 var location = { lat: 6.926945807141634, lng: 79.86547227719338 };
                 var map = new google.maps.Map(document.getElementById('map'), {
