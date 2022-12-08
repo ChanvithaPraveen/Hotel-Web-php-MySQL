@@ -96,7 +96,7 @@
         <!-- map section -->
         <div id="map"></div>
         <script>
-            const map_key = "AIzaSyBmoT6N9We6X1tlQEQDxewt1Ec62ix5ykQ"
+            const map_key = ""
             function initMap() {
                 var location = { lat: 6.926945807141634, lng: 79.86547227719338 };
                 var map = new google.maps.Map(document.getElementById('map'), {
