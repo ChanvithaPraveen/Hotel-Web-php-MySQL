@@ -1,4 +1,15 @@
 <?php
+
+$arrival = "";
+$departure = "";
+$first_name = "";
+$last_name = "";
+$email = "";
+$phone = "";
+$adults = "";
+$children = "";
+$room_pref = "";
+
 // Output messages
 $responses = [];
 // Check if the form was submitted
@@ -44,13 +55,15 @@ if (!$responses) {
     include 'email-template.php';
     $email_template = ob_get_clean();
     // Try to send the mail
-    if (mail($to, $subject, $email_template, $headers)) {
-        // Success
-        $responses[] = 'Thank you for your reservation!';
-    } else {
-        // Fail; problem with the mail server...
-        $responses[] = 'Message could not be sent! Please check your mail server settings!';
-    }
+    // if (mail($to, $subject, $email_template, $headers)) {
+    //     // Success
+    //     $responses[] = 'Thank you for your reservation!';
+    // } else {
+    //     // Fail; problem with the mail server...
+    //     $responses[] = 'Message could not be sent! Please check your mail server settings!';
+    // }
+
+
 }
 ?>
 
@@ -263,7 +276,9 @@ if (!$responses) {
                     <input type="submit" value="Reserve">
 
 
-
+                    <script>
+              t("Your Reservation is Confirmed");
+                    </script>
 
 
 
