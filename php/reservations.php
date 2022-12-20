@@ -1,5 +1,16 @@
 <?php
 
+//connect to the database
+$server_name = 'localhost';
+$user_name = 'root';
+$password = '';
+$db_name = 'db_hotel_management';
+$conn = mysqli_connect($server_name, $user_name, $password, $db_name);
+if (!$conn) {
+    die('Connection failed: ' . mysqli_connect_error());
+}
+    
+
 $arrival = "";
 $departure = "";
 $first_name = "";
@@ -13,18 +24,36 @@ $room_pref = "";
 // Output messages
 $responses = [];
 // Check if the form was submitted
-if (isset($_POST['arrival'], $_POST['departure'], $_POST['first_name'], $_POST['last_name'], $_POST['email'], $_POST['phone'], $_POST['adults'], $_POST['children'], $_POST['room_pref'])) {
+if (isset($_POST['Reserve'])) {
     // Process form data
     // Assign POST variables
-    $arrival = htmlspecialchars($_POST['arrival'], ENT_QUOTES);
-    $departure = htmlspecialchars($_POST['departure'], ENT_QUOTES);
-    $first_name = htmlspecialchars($_POST['first_name'], ENT_QUOTES);
-    $last_name = htmlspecialchars($_POST['last_name'], ENT_QUOTES);
-    $email = htmlspecialchars($_POST['email'], ENT_QUOTES);
-    $phone = htmlspecialchars($_POST['phone'], ENT_QUOTES);
-    $adults = htmlspecialchars($_POST['adults'], ENT_QUOTES);
-    $children = htmlspecialchars($_POST['children'], ENT_QUOTES);
-    $room_pref = htmlspecialchars($_POST['room_pref'], ENT_QUOTES);
+    $arrival = $_POST['arrival'];
+    $departure = $_POST['departure'];
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $adults = $_POST['adults'];
+    $children = $_POST['children'];
+    $room_pref = $_POST['room_pref'];
+
+
+
+    //insert data into the database
+    $sql = "INSERT INTO reservation_table (arrival, departure, first_name, last_name, email, phone, adults, children, room_pref) VALUES ('$arrival', '$departure', '$first_name', '$last_name', '$email', '$phone', '$adults', '$children', '$room_pref')";
+    if (mysqli_query($conn, $sql)) {
+
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+
+
+    // // Close connection
+    // mysqli_close($conn);
+
+    header('location: ../php/reservations.php');
+
+
 }
 
 // Validate email adress
@@ -62,9 +91,12 @@ if (!$responses) {
     //     // Fail; problem with the mail server...
     //     $responses[] = 'Message could not be sent! Please check your mail server settings!';
     // }
-
-
 }
+
+
+
+
+
 ?>
 
 
@@ -171,7 +203,9 @@ if (!$responses) {
                 <h1><i class="far fa-calendar-alt"></i>Confirm & Checkout Your Reservation</h1>
             </header>
 
-            <form class="hotel-reservation-form" method="post" action="">
+            <form class="hotel-reservation-form" method="post" action="reservations.php">
+
+
                 <div class="fields">
                     <!-- Input Elements -->
                     <div class="wrapper">
@@ -254,9 +288,6 @@ if (!$responses) {
                     </div>
 
 
-                    <option value="5">5</option>
-
-
                     <label for="room_pref">Room Preference</label>
                     <div class="field">
                         <select id="room_pref" name="room_pref" required>
@@ -273,18 +304,26 @@ if (!$responses) {
                         <?php echo implode('<br>', $responses); ?>
                     </p>
                     <?php endif; ?>
-                    <input type="submit" value="Reserve">
+
+                    <input type="submit" name="Reserve" value="Submit">
 
 
                     <script>
-              t("Your Reservation is Confirmed");
+                        ("Your Reservation is Confirmed");
                     </script>
+
+                    
+
+                   
+
+                   
+
+
 
 
 
                 </div>
             </form>
-
 
 
 
