@@ -559,3 +559,28 @@ h1 i {
 .hotel-reservation-form .fields .wrapper .gap {
   width: 35px;
 }
+
+
+/* ******************************* Login Page ******************************* */
+
+#frm{  
+  border: solid #cca558 2px;  
+  width:25%;  
+  border-radius: 2px;  
+  margin-left: 1000px; 
+  margin-top: 70px; 
+  margin-bottom: 40px;
+  border-radius: 6px;
+  background: white;  
+  padding: 20px;  
+}  
+#btn{  
+  color: #fff;  
+  background: #cca558;  
+  padding: 8px 20px;  
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-left: 70%;  
+  margin-top: 10%;
+}
