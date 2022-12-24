@@ -41,14 +41,14 @@
         </div>
 
 
-        <!-- *******************************Login Interface ******************************* -->
+        <!-- ******************************* Signup Interface ******************************* -->
 
         <div id="frm">
-            <h1>Login</h1>
-            <form name="f1" action="authentication.php" onsubmit="return validation()" method="POST">
+            <h1>Register</h1>
+            <form name="f2" action="register.php" onsubmit="return validation()" method="POST">
+                <?php include('errors.php'); ?>
+
                 <p>
-                    <!-- <label> UserName: </label>  
-                <input type = "text" id ="user" name  = "user" />   -->
                     <label for="username">UserName:</label>
                 <div class="field">
                     <i class="fas fa-user"></i>
@@ -56,20 +56,25 @@
                 </div>
                 </p>
                 <p>
-                    <!-- <label> Password: </label>
-                    <input type="password" id="pass" name="pass" /> -->
                     <label for="password">Password:</label>
                 <div class="field">
                     <i class="fas fa-key"></i>
-                    <input id="pass" type="password" name="pass" placeholder="Enter your password" required>
+                    <input id="pass" type="password" name="password_1" placeholder="Enter your password" required>
                 </div>
                 </p>
                 <p>
-                    <input type="submit" id="btn" name="login_user" value="Login" />
+                    <label for="password">Confirm Password:</label>
+                <div class="field">
+                    <i class="fas fa-key"></i>
+                    <input id="pass" type="password" name="password_2" placeholder="Enter your password" required>
+                </div>
+                </p>
+                <p>
+                    <input type="submit" id="btn" name="reg_user" value="Register" />
                 </p>
 
                 <p>
-                    Not yet a member? <a href="register.php">Sign up</a>
+                    Alredy a member? <a href="login.php">LogIn</a>
                 </p>
             </form>
         </div>
