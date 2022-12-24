@@ -52,21 +52,31 @@
                     <label for="username">UserName:</label>
                 <div class="field">
                     <i class="fas fa-user"></i>
-                    <input id="user" type="email" name="user" placeholder="Enter your email address" required>
+                    <!-- <input id="username" type="text" name="username" placeholder="Enter your user name" > -->
+                    <input id="username"type="text" name="username" placeholder="Enter your user name" value="<?php echo $username; ?>">
+                </div>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                <div class="field">
+                    <i class="fas fa-email"></i>
+                    <!-- <input id="user" type="email" name="user" placeholder="Enter your email address" > -->
+                    <input id="email" type="email" name="email" placeholder="Enter your email address" value="<?php echo $email; ?>">
                 </div>
                 </p>
                 <p>
                     <label for="password">Password:</label>
                 <div class="field">
                     <i class="fas fa-key"></i>
-                    <input id="pass" type="password" name="password_1" placeholder="Enter your password" required>
+                    <input id="password" type="password" name="password_1" placeholder="Enter your password" >
                 </div>
                 </p>
                 <p>
                     <label for="password">Confirm Password:</label>
                 <div class="field">
                     <i class="fas fa-key"></i>
-                    <input id="pass" type="password" name="password_2" placeholder="Enter your password" required>
+                    <input id="password" type="password" name="password_2" placeholder="Enter your password" >
                 </div>
                 </p>
                 <p>

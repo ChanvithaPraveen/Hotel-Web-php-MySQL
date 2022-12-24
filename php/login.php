@@ -45,23 +45,20 @@
 
         <div id="frm">
             <h1>Login</h1>
-            <form name="f1" action="authentication.php" onsubmit="return validation()" method="POST">
+            <form name="f1" action="login.php" onsubmit="return validation()" method="POST">
+            <?php include('errors.php'); ?>
                 <p>
-                    <!-- <label> UserName: </label>  
-                <input type = "text" id ="user" name  = "user" />   -->
-                    <label for="username">UserName:</label>
+                    <label for="email">Email:</label>
                 <div class="field">
                     <i class="fas fa-user"></i>
-                    <input id="user" type="email" name="user" placeholder="Enter your email address" required>
+                    <input id="email" type="email" name="email" placeholder="Enter your email address" value="<?php echo $email; ?>">
                 </div>
                 </p>
                 <p>
-                    <!-- <label> Password: </label>
-                    <input type="password" id="pass" name="pass" /> -->
                     <label for="password">Password:</label>
                 <div class="field">
                     <i class="fas fa-key"></i>
-                    <input id="pass" type="password" name="pass" placeholder="Enter your password" required>
+                    <input id="password" type="password" name="password" placeholder="Enter your password" >
                 </div>
                 </p>
                 <p>
