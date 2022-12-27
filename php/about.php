@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,9 +35,22 @@
                     <li><a class="active" href="http://localhost/Hotel-Web-php-MySQL/php/about.php">About</a></li>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/gallery.php">Gallery</a></li>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/offers.php">Offers</a></li>
-                    <li><a href="http://localhost/Hotel-Web-php-MySQL/php/reservations.php">Reservations</a></li>
+                    <!-- <li><a href="http://localhost/Hotel-Web-php-MySQL/php/reservations.php">Reservations</a></li> -->
+                    <?php if (isset($_SESSION['email'])) {
+                        echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/reservations.php">Reservations</a></li>';
+                        
+                    } ?>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/location.php">Location</a></li>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/contact.php">Contact</a></li>
+                    <!-- <li><a href="http://localhost/Hotel-Web-php-MySQL/php/logout.php">Logout</a></li> -->
+                    <?php if (isset($_SESSION['email'])) {
+                        echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/logout.php">Logout</a></li>';
+                        
+                    } ?>
+                    <?php if (! (isset($_SESSION['email']))) {
+                        echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/login.php">Login</a></li>';
+                        
+                    } ?>
                 </ul>
             </nav>
         </div>

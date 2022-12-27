@@ -105,6 +105,7 @@ if (isset($_POST['Reserve'])) {
                             href="http://localhost/Hotel-Web-php-MySQL/php/reservations.php">Reservations</a></li>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/location.php">Location</a></li>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/contact.php">Contact</a></li>
+                    <li><a href="http://localhost/Hotel-Web-php-MySQL/php/logout.php">Logout</a></li>
                 </ul>
             </nav>
         </div>
