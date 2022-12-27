@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Page</title>
+    <title>Register</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -43,50 +43,54 @@
 
         <!-- ******************************* Signup Interface ******************************* -->
 
-        <div id="frm">
-            <h1>Register</h1>
-            <form name="f2" action="register.php" onsubmit="return validation()" method="POST">
-                <?php include('errors.php'); ?>
+        <div class="bg-img">
+            <div id="frm">
+                <h1>Register</h1>
+                <form name="f2" action="register.php" onsubmit="return validation()" method="POST">
+                    <?php include('errors.php'); ?>
 
-                <p>
-                    <label for="username">UserName:</label>
-                <div class="field">
-                    <i class="fas fa-user"></i>
-                    <!-- <input id="username" type="text" name="username" placeholder="Enter your user name" > -->
-                    <input id="username"type="text" name="username" placeholder="Enter your user name" value="<?php echo $username; ?>">
-                </div>
-                </p>
+                    <p>
+                        <label for="username">UserName:</label>
+                    <div class="field">
+                        <i class="fas fa-user"></i>
+                        <!-- <input id="username" type="text" name="username" placeholder="Enter your user name" > -->
+                        <input id="username" type="text" name="username" placeholder="Enter your user name"
+                            value="<?php echo $username; ?>">
+                    </div>
+                    </p>
 
-                <p>
-                    <label for="email">Email:</label>
-                <div class="field">
-                    <i class="fas fa-email"></i>
-                    <!-- <input id="user" type="email" name="user" placeholder="Enter your email address" > -->
-                    <input id="email" type="email" name="email" placeholder="Enter your email address" value="<?php echo $email; ?>">
-                </div>
-                </p>
-                <p>
-                    <label for="password">Password:</label>
-                <div class="field">
-                    <i class="fas fa-key"></i>
-                    <input id="password" type="password" name="password_1" placeholder="Enter your password" >
-                </div>
-                </p>
-                <p>
-                    <label for="password">Confirm Password:</label>
-                <div class="field">
-                    <i class="fas fa-key"></i>
-                    <input id="password" type="password" name="password_2" placeholder="Enter your password" >
-                </div>
-                </p>
-                <p>
-                    <input type="submit" id="btn" name="reg_user" value="Register" />
-                </p>
+                    <p>
+                        <label for="email">Email:</label>
+                    <div class="field">
+                        <i class="fas fa-user-circle"></i>
+                        <!-- <input id="user" type="email" name="user" placeholder="Enter your email address" > -->
+                        <input id="email" type="email" name="email" placeholder="Enter your email address"
+                            value="<?php echo $email; ?>">
+                    </div>
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                    <div class="field">
+                        <i class="fas fa-key"></i>
+                        <input id="password" type="password" name="password_1" placeholder="Enter your password">
+                    </div>
+                    </p>
+                    <p>
+                        <label for="password">Confirm Password:</label>
+                    <div class="field">
+                        <i class="fas fa-key"></i>
+                        <input id="password" type="password" name="password_2" placeholder="Enter your password">
+                    </div>
+                    </p>
+                    <p>
+                        <input type="submit" id="btn" name="reg_user" value="Register" />
+                    </p>
 
-                <p>
-                    Alredy a member? <a href="login.php">LogIn</a>
-                </p>
-            </form>
+                    <p>
+                        Alredy a member? <a href="login.php">LogIn</a>
+                    </p>
+                </form>
+            </div>
         </div>
 
 

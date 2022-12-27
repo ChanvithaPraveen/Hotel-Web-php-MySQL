@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Page</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -43,32 +43,35 @@
 
         <!-- *******************************Login Interface ******************************* -->
 
-        <div id="frm">
-            <h1>Login</h1>
-            <form name="f1" action="login.php" onsubmit="return validation()" method="POST">
-            <?php include('errors.php'); ?>
-                <p>
-                    <label for="email">Email:</label>
-                <div class="field">
-                    <i class="fas fa-user"></i>
-                    <input id="email" type="email" name="email" placeholder="Enter your email address" value="<?php echo $email; ?>">
-                </div>
-                </p>
-                <p>
-                    <label for="password">Password:</label>
-                <div class="field">
-                    <i class="fas fa-key"></i>
-                    <input id="password" type="password" name="password" placeholder="Enter your password" >
-                </div>
-                </p>
-                <p>
-                    <input type="submit" id="btn" name="login_user" value="Login" />
-                </p>
+        <div class="bg-img">
+            <div id="frm">
+                <h1>Login</h1>
+                <form name="f1" action="login.php" onsubmit="return validation()" method="POST">
+                    <?php include('errors.php'); ?>
+                    <p>
+                        <label for="email">Email:</label>
+                    <div class="field">
+                        <i class="fas fa-user"></i>
+                        <input id="email" type="email" name="email" placeholder="Enter your email address"
+                            value="<?php echo $email; ?>">
+                    </div>
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                    <div class="field">
+                        <i class="fas fa-key"></i>
+                        <input id="password" type="password" name="password" placeholder="Enter your password">
+                    </div>
+                    </p>
+                    <p>
+                        <input type="submit" id="btn" name="login_user" value="Login" />
+                    </p>
 
-                <p>
-                    Not yet a member? <a href="register.php">Sign up</a>
-                </p>
-            </form>
+                    <p>
+                        Not yet a member? <a href="register.php">Sign up</a>
+                    </p>
+                </form>
+            </div>
         </div>
 
 
