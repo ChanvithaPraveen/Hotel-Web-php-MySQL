@@ -34,6 +34,7 @@
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/reservations.php">Reservations</a></li>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/location.php">Location</a></li>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/contact.php">Contact</a></li>
+                    <li><a href="http://localhost/Hotel-Web-php-MySQL/php/logout.php">Logout</a></li>
                 </ul>
             </nav>
         </div>
@@ -81,15 +82,35 @@
         <div>
             <div class="top-topics">
                 <h1>Hotel Indigo</h1>
-                <p>Hotel Asia is a 3-star hotel located in the heart of Colombo, Sri Lanka. It is a 5-minute walk from
-                    the famous Galle Face Green and the National Museum. The hotel is 1.5 km from the Colombo Fort
-                    Railway Station and 1.6 km from the Colombo National Hospital. The Bandaranaike International
-                    Airport is 35 km away. The hotel offers free WiFi in all areas. The rooms are equipped with a
-                    flat-screen TV with satellite channels, a kettle, a shower, a hairdryer and a desk. The rooms are
-                    equipped with a private bathroom with a bath. All rooms have a wardrobe. The hotel offers a 24-hour
-                    front desk, room service and currency exchange for guests. The hotel also offers car rental. The
-                    hotel has a restaurant. The nearest airport is Bandaranaike International Airport, 35 km from Hotel
-                    Asia.</p>
+
+                <h2><strong>Hotel Asia is a 3-star hotel located in the heart of Colombo, Sri Lanka. It is a 5-minute
+                        walk from
+                        the famous Galle Face Green and the National Museum. The hotel is 1.5 km from the Colombo Fort
+                        Railway Station and 1.6 km from the Colombo National Hospital. The Bandaranaike International
+                        Airport is 35 km away. The hotel offers free WiFi in all areas. The rooms are equipped with a
+                        flat-screen TV with satellite channels, a kettle, a shower, a hairdryer and a desk. The rooms
+                        are
+                        equipped with a private bathroom with a bath. All rooms have a wardrobe. The hotel offers a
+                        24-hour
+                        front desk, room service and currency exchange for guests. The hotel also offers car rental. The
+                        hotel has a restaurant. The nearest airport is Bandaranaike International Airport, 35 km from
+                        Hotel
+                        Asia. </strong></h2>
+                <p> Hotel Indigo is a boutique hotel brand that is part of the InterContinental Hotels Group
+                    (IHG). The Hotel Indigo brand is known for its unique and locally inspired design, with each hotel
+                    featuring a different theme that reflects the culture and history of its location. Hotel Indigo
+                    hotels are typically smaller in size than traditional hotels, and offer a more personalized and
+                    intimate experience for guests.
+
+                    A Hotel Indigo website would typically include information about the brand's philosophy and values,
+                    as well as details about the various Hotel Indigo locations around the world. The website might also
+                    include features such as a reservation system, a loyalty program, and information about amenities
+                    and services offered at the hotels.
+
+                    Overall, a Hotel Indigo website would be designed to appeal to travelers who are looking for a more
+                    unique and personalized hotel experience, and who value design and local culture. It would likely
+                    have a modern and stylish aesthetic, with a focus on visuals and imagery to showcase the brand's
+                    design philosophy and the various Hotel Indigo locations.</p>
             </div>
 
             <hr>

@@ -96,6 +96,7 @@ nav ul li a:hover {
   box-shadow: 2px 5px 10px rgba(142, 162, 16, 0.378);
 }
 
+
 /* *******************************Image slide show ******************************* */
 
 /* Slideshow container */
@@ -169,6 +170,7 @@ nav ul li a:hover {
 .active,
 .dot:hover {
   background-color: #cca558;
+  color: white;
 }
 
 /* ******************************* Hotel Asia *******************************  */
@@ -185,6 +187,19 @@ nav ul li a:hover {
 }
 
 .top-topics p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #707070;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.top-topics h2 {
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
