@@ -106,5 +106,23 @@ if (isset($_POST['login_user'])) {
 //         echo "<h1> Login failed. Invalid username or password.</h1>";
 //     }
   }
+
+
+
+$first_name = '';
+$last_name = '';
+
+  // ESERVATION 
+if (isset($_POST['Reserve'])) {
+    $first_name = mysqli_real_escape_string($db, $_POST['first_name']);
+    $last_name = mysqli_real_escape_string($db, $_POST['last_name']);
+
+    if (empty($first_name)) {
+        array_push($errors, "First name is required");
+    }
+    if (empty($last_name)) {
+        array_push($errors, "Last name is required");
+    }
+}
   
   ?>

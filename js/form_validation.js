@@ -3,9 +3,9 @@ const last_name = document.getElementById('last_name')
 const form = document.getElementsByClassName('form')
 const errorElement = document.getElementById('error')
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('Reserve', (e) => {
   let messages = []
-  if (name.value === '' || name.value == null) {
+  if (first_name.value === '' || first_name.value == null) {
     messages.push('Name is required')
   }
 
