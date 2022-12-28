@@ -90,6 +90,7 @@ if (isset($_POST['login_user'])) {
     if (empty($password)) {
         array_push($errors, "Password is required");
     }
+    
     // if (last_name.value.length <= 6) {
     //     array_push($errors, 'Password must be longer than 6 characters')
     //   }
@@ -109,6 +110,10 @@ if (isset($_POST['login_user'])) {
             $_SESSION['success'] = "You are now logged in";
             echo "<h1><center> Login successful </center></h1>";
             header('location: ../index.php');
+
+            if ($email === 'admin@gmail.com' && $password === '0e7517141fb53f21ee439b355b5a1d0a') {
+                header('location: ../php/admin/index.php');
+            }
         } else {
             array_push($errors, "Wrong username/password combination");
             header('location: ./login.php');
