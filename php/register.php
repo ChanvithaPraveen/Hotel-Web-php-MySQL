@@ -254,11 +254,7 @@
                     <li>
                         <div class="subscribe">
                             <p>Subscribe to get Latest Offers</p>
-                            <!-- <form <?php echo $_SERVER['PHP_SELF']; ?> method="POST">
-                                <input type="email" class="inptfld" name="Subscribe_btn" placeholder=" Your Email"
-                                    required>
-                                <input type="submit" class="subscribebtn" name="Subscribe">
-                            </form> -->
+                            <input type="text" placeholder="Enter Your Email">
                         </div>
                     </li>
                 </ul>
