@@ -1,4 +1,5 @@
 <?php include('server.php') ?>
+<?php include('subscribe.php') ?>
 
 <?php
 

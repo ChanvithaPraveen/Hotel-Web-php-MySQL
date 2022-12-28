@@ -1,4 +1,5 @@
 <?php include('php/server.php') ?>
+<?php include('php/subscribe.php') ?>
 
 <!DOCTYPE html>
 <html lang="en">
