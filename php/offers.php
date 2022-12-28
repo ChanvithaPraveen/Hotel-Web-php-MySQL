@@ -139,7 +139,7 @@
                 <div class="des">
                     <p>Book your stay at least 30 days in
                         advance and receive a 10% discount on your room rate.</p>
-                    <button>Read More...</button>
+                    <button><a href="../php/offerdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->
@@ -154,7 +154,7 @@
                 <div class="des">
                     <p>Stay with us for 5 nights or more
                         and receive a 15% discount on your room rate.</p>
-                    <button>Read More...</button>
+                    <button><a href="../php/offerdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->
@@ -169,7 +169,7 @@
                 <div class="des">
                     <p>Enjoy a relaxing weekend at our hotel and
                         receive a 20% discount on your room rate.</p>
-                    <button>Read More...</button>
+                    <button><a href="../php/offerdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->
@@ -184,7 +184,7 @@
                 <div class="des">
                     <p>Bring the whole family along and receive a 25%
                         discount on your room rate for up to 2 children under the age of 12.</p>
-                    <button>Read More...</button>
+                    <button><a href="../php/offerdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->
@@ -198,7 +198,7 @@
                 </div>
                 <div class="des">
                     <p>You can Add Desccription Here...</p>
-                    <button>Read More...</button>
+                    <button><a href="../php/offerdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->
@@ -212,7 +212,7 @@
                 </div>
                 <div class="des">
                     <p>You can Add Desccription Here...</p>
-                    <button>Read More...</button>
+                    <button><a href="../php/offerdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->
@@ -226,7 +226,7 @@
                 </div>
                 <div class="des">
                     <p>You can Add Desccription Here...</p>
-                    <button>Read More...</button>
+                    <button><a href="../php/offerdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->

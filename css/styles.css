@@ -738,3 +738,19 @@ h1 i {
 /* (D) OPTIONAL ANIMATION */
 .gallery { overflow-x: hidden; }
 .gallery img { transition: all 0.3s; }
+
+
+/* ******************************* Offer Details ******************************* */
+
+.top-topics img
+{  
+float: left;   
+margin: 90px 70px;  
+margin-top: 40px; 
+border: 5px solid #cca558;  
+}   
+
+.card-container button a {
+  color: #fff;
+  text-decoration: none;
+}

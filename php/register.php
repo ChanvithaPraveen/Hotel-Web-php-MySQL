@@ -106,14 +106,16 @@
                 </p>
 
                 <ul>
-                    <li>Early Bird Special:&nbsp;&nbsp;&nbsp;  Book your stay at least 30 days in
+                    <li>Early Bird Special:&nbsp;&nbsp;&nbsp; Book your stay at least 30 days in
                         advance and receive a 10% discount on your room rate.</li>
-                    <li>Stay Longer:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stay with us for 5 nights or more
+                    <li>Stay Longer:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stay with us for 5
+                        nights or more
                         and receive a 15% discount on your room rate.</li>
                     <li>Weekend Getaway:&nbsp;&nbsp;Enjoy a relaxing weekend at our hotel and
                         receive a 20% discount on your room rate.
                     </li>
-                    <li>Family Fun:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bring the whole family along and receive a 25%
+                    <li>Family Fun:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bring the
+                        whole family along and receive a 25%
                         discount on your room rate for up to 2 children under the age of 12.</li>
                 </ul>
                 <br>
@@ -132,8 +134,7 @@
 
             <div class="card">
                 <div class="image">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+                    <img src="../images/img13.jpg">
                 </div>
                 <div class="title">
                     <h1>Early Bird Special</h1>
@@ -141,15 +142,14 @@
                 <div class="des">
                     <p>Book your stay at least 30 days in
                         advance and receive a 10% discount on your room rate.</p>
-                    <button>Read More...</button>
+                    <button><a href="../php/offerdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->
 
             <div class="card">
                 <div class="image">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+                    <img src="../images/img14.png">
                 </div>
                 <div class="title">
                     <h1>Stay Longer</h1>
@@ -157,15 +157,14 @@
                 <div class="des">
                     <p>Stay with us for 5 nights or more
                         and receive a 15% discount on your room rate.</p>
-                    <button>Read More...</button>
+                    <button><a href="../php/offerdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->
 
             <div class="card">
                 <div class="image">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+                    <img src="../images/img15.jpg">
                 </div>
                 <div class="title">
                     <h1>Weekend Getaway</h1>
@@ -173,15 +172,14 @@
                 <div class="des">
                     <p>Enjoy a relaxing weekend at our hotel and
                         receive a 20% discount on your room rate.</p>
-                    <button>Read More...</button>
+                    <button><a href="../php/offerdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->
 
             <div class="card">
                 <div class="image">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+                    <img src="../images/img16.jpg">
                 </div>
                 <div class="title">
                     <h1>Family Fun</h1>
@@ -189,7 +187,7 @@
                 <div class="des">
                     <p>Bring the whole family along and receive a 25%
                         discount on your room rate for up to 2 children under the age of 12.</p>
-                    <button>Read More...</button>
+                    <button><a href="../php/offerdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->
