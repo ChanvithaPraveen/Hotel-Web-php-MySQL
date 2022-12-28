@@ -1,6 +1,4 @@
-<?php
-    session_start();
-?>
+<?php include('server.php') ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,18 +36,18 @@
                     <!-- <li><a href="http://localhost/Hotel-Web-php-MySQL/php/reservations.php">Reservations</a></li> -->
                     <?php if (isset($_SESSION['email'])) {
                         echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/reservations.php">Reservations</a></li>';
-                        
+
                     } ?>
                     <li><a class="active" href="http://localhost/Hotel-Web-php-MySQL/php/location.php">Location</a></li>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/contact.php">Contact</a></li>
                     <!-- <li><a href="http://localhost/Hotel-Web-php-MySQL/php/logout.php">Logout</a></li> -->
                     <?php if (isset($_SESSION['email'])) {
                         echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/logout.php">Logout</a></li>';
-                        
+
                     } ?>
-                    <?php if (! (isset($_SESSION['email']))) {
+                    <?php if (!(isset($_SESSION['email']))) {
                         echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/login.php">Login</a></li>';
-                        
+
                     } ?>
                 </ul>
             </nav>
@@ -128,7 +126,7 @@
             }
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
-        
+
         </script>
 
         <!-- ******************************* Footer ******************************* -->
@@ -152,7 +150,11 @@
                     <li>
                         <div class="subscribe">
                             <p>Subscribe to get Latest Offers</p>
-                            <input type="text" placeholder="Enter Your Email">
+                            <form <?php echo $_SERVER['PHP_SELF']; ?> method="POST">
+                                <input type="email" class="inptfld" name="Subscribe_btn" placeholder=" Your Email"
+                                    required>
+                                <input type="submit" class="subscribebtn" name="Subscribe">
+                            </form>
                         </div>
                     </li>
                 </ul>

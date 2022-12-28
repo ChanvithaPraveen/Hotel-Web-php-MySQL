@@ -39,8 +39,6 @@ if (isset($_POST['Reserve'])) {
     $children = $_POST['children'];
     $room_pref = $_POST['room_pref'];
 
-
-
     //insert data into the database
     $sql = "INSERT INTO reservation_table (arrival, departure, first_name, last_name, email, phone, adults, children, room_pref) VALUES ('$arrival', '$departure', '$first_name', '$last_name', '$email', '$phone', '$adults', '$children', '$room_pref')";
     if (mysqli_query($conn, $sql)) {
@@ -49,19 +47,11 @@ if (isset($_POST['Reserve'])) {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
 
-
     // // Close connection
     // mysqli_close($conn);
 
     header('location: ../php/reservations.php');
-
-
 }
-
-
-
-
-
 
 ?>
 
@@ -351,7 +341,11 @@ if (isset($_POST['Reserve'])) {
                     <li>
                         <div class="subscribe">
                             <p>Subscribe to get Latest Offers</p>
-                            <input type="text" placeholder="Enter Your Email">
+                            <form <?php echo $_SERVER['PHP_SELF']; ?> method="POST">
+                                <input type="email" class="inptfld" name="Subscribe_btn" placeholder=" Your Email"
+                                    required>
+                                <input type="submit" class="subscribebtn" name="Subscribe">
+                            </form>
                         </div>
                     </li>
                 </ul>

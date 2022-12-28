@@ -32,7 +32,7 @@ if (isset($_POST['reg_user'])) {
     if (empty($password_1)) {
         array_push($errors, "Password is required");
     }
-    
+
     // Validate password strength
     $uppercase = preg_match('@[A-Z]@', $password);
     $lowercase = preg_match('@[a-z]@', $password);
@@ -138,11 +138,10 @@ if (isset($_POST['login_user'])) {
 }
 
 
-
+// RESERVATION
 $first_name = '';
 $last_name = '';
 
-// RESERVATION 
 if (isset($_POST['Reserve'])) {
     $first_name = mysqli_real_escape_string($db, $_POST['first_name']);
     $last_name = mysqli_real_escape_string($db, $_POST['last_name']);
@@ -153,6 +152,29 @@ if (isset($_POST['Reserve'])) {
     if (empty($last_name)) {
         array_push($errors, "Last name is required");
     }
+}
+
+
+
+// SUBSCRIBE
+$subscribe = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Assign POST variables
+    $subscribe = mysqli_real_escape_string($db, $_POST['Subscribe_btn']);
+    // $subscribe = $_POST['Subscribe_btn'];
+    //insert data into the database
+    $subscribesql = "INSERT INTO subscribers_table (subscriber_email) VALUES ('$subscribe')";
+    if (mysqli_query($db, $subscribesql)) {
+
+    } else {
+        echo "Error: " . $subscribesql . "<br>" . mysqli_error($db);
+    }
+
+    // Close connection
+    mysqli_close($db);
+
+    header('Location: '.$_SERVER['REQUEST_URI']); //refresh page itself
 }
 
 ?>
