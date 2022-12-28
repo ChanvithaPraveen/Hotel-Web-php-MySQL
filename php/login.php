@@ -80,30 +80,50 @@
         <div>
             <div class="top-topics">
                 <h1>Exclusive Offers</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-                    opposed to using 'Content here, content here', making it look like readable English.
-                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
-                    text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected
-                    humour and the like).</p>
+                <p><strong>"Welcome to our special offers page! We have a variety of exciting promotions and discounts
+                        available
+                        for our guests. Take a look at what we have on offer, and book your stay with us today to take
+                        advantage of these great deals.</strong></br>
+                </p>
+
+                <ul>
+                    <li>Early Bird Special:&nbsp;&nbsp;&nbsp; Book your stay at least 30 days in
+                        advance and receive a 10% discount on your room rate.</li>
+                    <li>Stay Longer:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stay with us for 5
+                        nights or more
+                        and receive a 15% discount on your room rate.</li>
+                    <li>Weekend Getaway:&nbsp;&nbsp;Enjoy a relaxing weekend at our hotel and
+                        receive a 20% discount on your room rate.
+                    </li>
+                    <li>Family Fun:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bring the
+                        whole family along and receive a 25%
+                        discount on your room rate for up to 2 children under the age of 12.</li>
+                </ul>
+                <br>
+
+                <p>
+                    These are just a few of the special offers that we have available. Be sure to check back often, as
+                    we are constantly adding new promotions and discounts. We look forward to welcoming you to our hotel
+                    and providing you with an unforgettable stay."
+                </p>
             </div>
         </div>
 
         <!-- ******************************* Image Cards ******************************* -->
 
         <div class="card-container">
+
             <div class="card">
                 <div class="image">
                     <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
                 </div>
                 <div class="title">
-                    <h1>Write title Here</h1>
+                    <h1>Early Bird Special</h1>
                 </div>
                 <div class="des">
-                    <p>You can Add Desccription Here...</p>
+                    <p>Book your stay at least 30 days in
+                        advance and receive a 10% discount on your room rate.</p>
                     <button>Read More...</button>
                 </div>
             </div>
@@ -115,24 +135,11 @@
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
                 </div>
                 <div class="title">
-                    <h1>Write title Here</h1>
+                    <h1>Stay Longer</h1>
                 </div>
                 <div class="des">
-                    <p>You can Add Desccription Here...</p>
-                    <button>Read More...</button>
-                </div>
-            </div>
-            <!--cards -->
-
-            <div class="card">
-                <div class="image">
-                    <img src="../images/img5.jpg">
-                </div>
-                <div class="title">
-                    <h1>Write title Here</h1>
-                </div>
-                <div class="des">
-                    <p>You can Add Desccription Here...</p>
+                    <p>Stay with us for 5 nights or more
+                        and receive a 15% discount on your room rate.</p>
                     <button>Read More...</button>
                 </div>
             </div>
@@ -144,10 +151,11 @@
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
                 </div>
                 <div class="title">
-                    <h1>Write title Here</h1>
+                    <h1>Weekend Getaway</h1>
                 </div>
                 <div class="des">
-                    <p>You can Add Desccription Here...</p>
+                    <p>Enjoy a relaxing weekend at our hotel and
+                        receive a 20% discount on your room rate.</p>
                     <button>Read More...</button>
                 </div>
             </div>
@@ -159,59 +167,16 @@
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
                 </div>
                 <div class="title">
-                    <h1>Write title Here</h1>
+                    <h1>Family Fun</h1>
                 </div>
                 <div class="des">
-                    <p>You can Add Desccription Here...</p>
+                    <p>Bring the whole family along and receive a 25%
+                        discount on your room rate for up to 2 children under the age of 12.</p>
                     <button>Read More...</button>
                 </div>
             </div>
             <!--cards -->
 
-            <div class="card">
-                <div class="image">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
-                </div>
-                <div class="title">
-                    <h1>Write title Here</h1>
-                </div>
-                <div class="des">
-                    <p>You can Add Desccription Here...</p>
-                    <button>Read More...</button>
-                </div>
-            </div>
-            <!--cards -->
-
-            <div class="card">
-                <div class="image">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
-                </div>
-                <div class="title">
-                    <h1>Write title Here</h1>
-                </div>
-                <div class="des">
-                    <p>You can Add Desccription Here...</p>
-                    <button>Read More...</button>
-                </div>
-            </div>
-            <!--cards -->
-
-            <div class="card">
-                <div class="image">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
-                </div>
-                <div class="title">
-                    <h1>Write title Here</h1>
-                </div>
-                <div class="des">
-                    <p>You can Add Desccription Here...</p>
-                    <button>Read More...</button>
-                </div>
-            </div>
-            <!--cards -->
         </div>
 
         <!-- ******************************* Footer ******************************* -->

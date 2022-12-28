@@ -60,15 +60,11 @@
 
         <div>
             <div class="top-topics">
-                <h1>About Our Luxury Hotel Facilities</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-                    opposed to using 'Content here, content here', making it look like readable English.
-                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
-                    text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected
-                    humour and the like).
+                <h1>User Sbscriptions Information</h1>
+                <p>Welcome to the subscription user manager! From here, you can view, edit, and manage all of your
+                    subscription users. Use the search bar to filter the list by username, email, or subscription type.
+                    You can also click on a user's name to view their detailed profile, or use the action buttons to
+                    edit or delete their account.
                 </p>
             </div>
         </div>
@@ -83,9 +79,9 @@
                 </tr>
                 <!-- PHP CODE TO FETCH DATA FROM ROWS -->
                 <?php
-            // LOOP TILL END OF DATA
-            while ($rows = $result_three->fetch_assoc()) {
-            ?>
+                // LOOP TILL END OF DATA
+                while ($rows = $result_three->fetch_assoc()) {
+                ?>
                 <tr>
                     <!-- FETCHING DATA FROM EACH
                     ROW OF EVERY COLUMN -->
@@ -97,8 +93,8 @@
                     </td>
                 </tr>
                 <?php
-            }
-            ?>
+                }
+                ?>
             </table>
         </section>
 

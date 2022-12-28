@@ -97,14 +97,14 @@
         <div>
             <div class="top-topics">
                 <h1>24x7 Hours Service</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-                    opposed to using 'Content here, content here', making it look like readable English.
-                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
-                    text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected
-                    humour and the like).
+                <p>Thank you for considering our luxurious hotel for your upcoming stay. If you have any questions or
+                    special requests, please don't hesitate to contact us. Our dedicated team of hospitality
+                    professionals is here to assist you with all of your needs, from room reservations and dining
+                    recommendations to arranging transportation and planning special events. Whether you're planning a
+                    romantic getaway, a family vacation, or a business trip, we are committed to making your stay with
+                    us as memorable and enjoyable as possible. Please don't hesitate to reach out to us at any time with
+                    your questions or concerns. We look forward to welcoming you to our hotel and making your visit
+                    truly unforgettable. <br><br> Email: info@hotelindigo.com <br> Phone: +94 11 2 123 456
                 </p>
             </div>
         </div>

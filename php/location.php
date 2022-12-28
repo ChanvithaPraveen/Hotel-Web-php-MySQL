@@ -96,15 +96,14 @@
 
         <div>
             <div class="top-topics">
-                <h1>Our Location Areas</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-                    opposed to using 'Content here, content here', making it look like readable English.
-                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
-                    text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected
-                    humour and the like).
+                <h1>Our Location Area</h1>
+                <p>We are located in the heart of Colombo, Sri Lanka's vibrant capital city. Our hotel offers easy
+                    access to all of the best attractions and amenities, including shopping centers, cultural sites, and
+                    dining options. Our guest rooms and suites are impeccably appointed, with sumptuous beds, fine
+                    linens, and state-of-the-art amenities. We also offer a range of dining options, from casual cafes
+                    to fine dining restaurants, as well as a full-service spa and fitness center. Whether you're in town
+                    for business or pleasure, we have everything you need to make your stay with us truly memorable and
+                    comfortable.
                 </p>
             </div>
         </div>

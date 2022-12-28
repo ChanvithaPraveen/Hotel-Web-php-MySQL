@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,21 +26,22 @@
             <!-- navigation links -->
             <nav>
                 <ul>
-                    <li><a class="active" href="http://localhost/Hotel-Web-php-MySQL/php/admin/index.php">Dashboard</a></li>
-                    
-                    <?php if (! isset($_SESSION['email'])) {
+                    <li><a class="active" href="http://localhost/Hotel-Web-php-MySQL/php/admin/index.php">Dashboard</a>
+                    </li>
+
+                    <?php if (!isset($_SESSION['email'])) {
                         echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/admin/users.php">Users</a></li>';
 
                     } ?>
-                    <?php if (! isset($_SESSION['email'])) {
+                    <?php if (!isset($_SESSION['email'])) {
                         echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/admin/reservations.php">Reservations</a></li>';
-                    
+
                     } ?>
-                    <?php if (! isset($_SESSION['email'])) {
+                    <?php if (!isset($_SESSION['email'])) {
                         echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/admin/subscribers.php">Subscribers</a></li>';
                     } ?>
-                    
-                    <?php if (! isset($_SESSION['email'])) {
+
+                    <?php if (!isset($_SESSION['email'])) {
                         echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/logout.php">Logout</a></li>';
 
                     } ?>
@@ -58,15 +58,11 @@
 
         <div>
             <div class="top-topics">
-                <h1>About Our Luxury Hotel Facilities</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-                    opposed to using 'Content here, content here', making it look like readable English.
-                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
-                    text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected
-                    humour and the like).
+                <h1>Welcome to Hotel Indigo Admin Dashboard</h1>
+                <p>Welcome to the hotel admin dashboard! From here, you can manage all aspects of your hotel, including
+                    reservations, guest information, room availability, and hotel subscribers. Use the navigation menu on
+                    the top to access the different sections of the dashboard. If you have any questions or need
+                    assistance, don't hesitate to reach out to our support team. We're here to help you succeed.
                 </p>
             </div>
         </div>
