@@ -69,6 +69,13 @@
             </div>
         </div>
 
+        <div class="search-section">
+            <form name="form1" action="searchreservations.php" method="post">
+                <input type="text" name="search" id="search" maxlength="40" placeholder="Customer's UserName or Email">
+                <input type="submit" name="searchbtn" value="Search" id="searchbtn" />
+            </form>
+        </div>
+
         <section>
             <!-- TABLE CONSTRUCTION -->
             <table>
@@ -126,6 +133,68 @@
                 </tr>
                 <?php
                 }
+                ?>
+
+
+                <?php
+// (B) PROCESS SEARCH WHEN FORM SUBMITTED
+if (isset($_POST["search"])) {
+    // (B1) SEARCH FOR USERS
+    require "3-search.php";
+
+    // (C) SEARCH
+    $stmt = $pdo->prepare("SELECT * FROM `reservations_table` WHERE `first_name` LIKE ? OR `last_name` LIKE ? `email` LIKE ? OR `phone` LIKE ? ");
+    $stmt->execute(["%" . $_POST["search"] . "%", "%" . $_POST["search"] . "%"]);
+    $results = $stmt->fetchAll();
+    if (isset($_POST["ajax"])) {
+        echo json_encode($results);
+    }
+
+    // (B2) DISPLAY RESULTS
+    if (count($results) > 0) {
+        foreach ($results as $r) {
+?>
+                <tr>
+                    <!-- FETCHING DATA FROM EACH
+                    ROW OF EVERY COLUMN -->
+                    <td>
+                        <?php echo $rows['reservation_id']; ?>
+                    </td>
+                    <td>
+                        <?php echo $rows['arrival']; ?>
+                    </td>
+                    <td>
+                        <?php echo $rows['departure']; ?>
+                    </td>
+                    <td>
+                        <?php echo $rows['first_name']; ?>
+                    </td>
+                    <td>
+                        <?php echo $rows['last_name']; ?>
+                    </td>
+                    <td>
+                        <?php echo $rows['email']; ?>
+                    </td>
+                    <td>
+                        <?php echo $rows['phone']; ?>
+                    </td>
+                    <td>
+                        <?php echo $rows['adults']; ?>
+                    </td>
+                    <td>
+                        <?php echo $rows['children']; ?>
+                    </td>
+                    <td>
+                        <?php echo $rows['room_pref']; ?>
+                    </td>
+                </tr>
+                <!-- printf("<div>%s - %s</div>", $r["username"],  $r["email"]); -->
+                <?php
+        }
+    } else {
+        echo "No results found";
+    }
+}
                 ?>
             </table>
         </section>

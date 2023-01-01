@@ -70,7 +70,7 @@
 
         <div class="search-section">
             <form name="form1" action="searchusers.php" method="post">
-                <input type="text" name="search" id="search" maxlength="40" placeholder="Customer's UserName or Email">
+                <input type="text" name="search" id="search" maxlength="40" placeholder="Customer's UserName or Email" >
                 <input type="submit" name="searchbtn" value="Search" id="searchbtn" />
             </form>
         </div>
@@ -83,29 +83,6 @@
                     <th>User Name</th>
                     <th>User Email Address</th>
                 </tr>
-                <!-- PHP CODE TO FETCH DATA FROM ROWS -->
-                <?php
-                // LOOP TILL END OF DATA
-                while ($rows = $result_one->fetch_assoc()) {
-                ?>
-                <tr>
-                    <!-- FETCHING DATA FROM EACH
-                    ROW OF EVERY COLUMN -->
-                    <td>
-                        <?php echo $rows['user_id']; ?>
-                    </td>
-                    <td>
-                        <?php echo $rows['username']; ?>
-                    </td>
-                    <td>
-                        <?php echo $rows['email']; ?>
-                    </td>
-                </tr>
-                <?php
-                }
-                ?>
-
-
                 <?php
                 // (B) PROCESS SEARCH WHEN FORM SUBMITTED
                 if (isset($_POST["search"])) {
@@ -119,11 +96,10 @@
                     if (isset($_POST["ajax"])) {
                         echo json_encode($results);
                     }
-
+                    
                     // (B2) DISPLAY RESULTS
                     if (count($results) > 0) {
-                        foreach ($results as $r) { 
-                            ?>
+                        foreach ($results as $r) { ?>
                 <tr>
                     <!-- FETCHING DATA FROM EACH
                     ROW OF EVERY COLUMN -->
@@ -144,7 +120,9 @@
                         echo "No results found";
                     }
                 }
+                
                 ?>
+
 
             </table>
         </section>

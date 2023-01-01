@@ -5,11 +5,10 @@
 $user = 'root';
 $password = '';
 
-// Database name is geeksforgeeks
+// Database name is db_hotel_management
 $database = 'db_hotel_management';
 
 // Server is localhost with
-// port number 3306
 $servername = 'localhost';
 $mysqli = new mysqli($servername, $user, $password, $database);
 
@@ -27,5 +26,8 @@ $result_two = $mysqli->query($reservationsql);
 
 $subscriberssql = " SELECT * FROM subscribers_table ORDER BY subscriber_id ASC";
 $result_three = $mysqli->query($subscriberssql);
+
+
 $mysqli->close();
+
 ?>

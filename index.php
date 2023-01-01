@@ -10,6 +10,7 @@
     <title>Hotel Indigo</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -23,12 +24,16 @@
         <!-- Navigation bar section -->
         <div class="nav-section">
             <!-- logo -->
-            <a href="#" class="logo">
+            <a href="http://localhost/Hotel-Web-php-MySQL/index.php" class="logo">
                 <img src="images/Hotel_Indigo_logo.png" alt="logo">
             </a>
 
             <!-- navigation links -->
             <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbutton">
+                    <i class="fas fa-bars"></i>
+                </label>
                 <ul>
                     <li><a class="active" href="http://localhost/Hotel-Web-php-MySQL/index.php">Home</a></li>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/about.php">About</a></li>

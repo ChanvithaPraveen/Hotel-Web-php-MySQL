@@ -640,3 +640,34 @@ td {
 td {
   font-weight: lighter;
 }
+
+
+.search-section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+#search{
+    width: 350px;
+    height: 50px;
+    border: 3px solid #f4e2b6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+#searchbtn {
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #f4e2b6;
+    color: #000;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
