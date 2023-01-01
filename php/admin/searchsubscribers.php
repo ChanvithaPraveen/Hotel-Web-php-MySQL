@@ -32,15 +32,15 @@
                     </li>
 
                     <?php if (!isset($_SESSION['email'])) {
-                        echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/admin/users.php">Users</a></li>';
+                        echo '<li><href="http://localhost/Hotel-Web-php-MySQL/php/admin/users.php">Users</a></li>';
 
                     } ?>
                     <?php if (!isset($_SESSION['email'])) {
-                        echo '<li><a class="active" href="http://localhost/Hotel-Web-php-MySQL/php/admin/reservations.php">Reservations</a></li>';
+                        echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/admin/reservations.php">Reservations</a></li>';
 
                     } ?>
                     <?php if (!isset($_SESSION['email'])) {
-                        echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/admin/subscribers.php">Subscribers</a></li>';
+                        echo '<li><a a class="active" href="http://localhost/Hotel-Web-php-MySQL/php/admin/subscribers.php">Subscribers</a></li>';
                     } ?>
 
                     <?php if (!isset($_SESSION['email'])) {
@@ -69,8 +69,8 @@
         </div>
 
         <div class="search-section">
-            <form name="form1" action="searchreservations.php" method="post">
-                <input type="text" name="search" id="search" maxlength="40" placeholder="Customer's UserName or Email" >
+            <form name="form1" action="searchsubscribers.php" method="post">
+                <input type="text" name="search" id="search" maxlength="40" placeholder="Customer's UserName or Email">
                 <input type="submit" name="searchbtn" value="Search" id="searchbtn" />
             </form>
         </div>
@@ -78,18 +78,9 @@
         <section>
             <!-- TABLE CONSTRUCTION -->
             <table>
-            <tr>
-                    <th>Res. Id</th>
-                    <th>Arrival</th>
-                    <th>Departure</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Email Address</th>
-                    <th>Phone No</th>
-                    <th>No. of Adults</th>
-                    <th>No. of Children</th>
-                    <th>Room Type</th>
-                    <th>User Message</th>
+                <tr>
+                    <th>Subscriber Id</th>
+                    <th>Subscriber Email Address</th>
                 </tr>
                 <?php
                 // (B) PROCESS SEARCH WHEN FORM SUBMITTED
@@ -98,13 +89,13 @@
                     require "3-search.php";
 
                     // (C) SEARCH
-                    $stmt = $pdo->prepare("SELECT * FROM `reservation_table` WHERE `arrival` LIKE ? OR `departure` LIKE ? OR `first_name` LIKE ? OR `last_name` LIKE ? OR `email` LIKE ? OR `phone` LIKE ? ");
-                    $stmt->execute(["%" . $_POST["search"] . "%", "%" . $_POST["search"] . "%", "%" . $_POST["search"] . "%", "%" . $_POST["search"] . "%", "%" . $_POST["search"] . "%", "%" . $_POST["search"] . "%",  ]);
+                    $stmt = $pdo->prepare("SELECT * FROM `subscribers_table` WHERE `subscriber_id` LIKE ? OR `subscriber_email` LIKE ?");
+                    $stmt->execute(["%" . $_POST["search"] . "%", "%" . $_POST["search"] . "%"]);
                     $results = $stmt->fetchAll();
                     if (isset($_POST["ajax"])) {
                         echo json_encode($results);
                     }
-                    
+
                     // (B2) DISPLAY RESULTS
                     if (count($results) > 0) {
                         foreach ($results as $r) { ?>
@@ -112,37 +103,10 @@
                     <!-- FETCHING DATA FROM EACH
                     ROW OF EVERY COLUMN -->
                     <td>
-                        <?php echo $r['reservation_id']; ?>
+                        <?php echo $r['subscriber_id']; ?>
                     </td>
                     <td>
-                        <?php echo $r['arrival']; ?>
-                    </td>
-                    <td>
-                        <?php echo $r['departure']; ?>
-                    </td>
-                    <td>
-                        <?php echo $r['first_name']; ?>
-                    </td>
-                    <td>
-                        <?php echo $r['last_name']; ?>
-                    </td>
-                    <td>
-                        <?php echo $r['email']; ?>
-                    </td>
-                    <td>
-                        <?php echo $r['phone']; ?>
-                    </td>
-                    <td>
-                        <?php echo $r['adults']; ?>
-                    </td>
-                    <td>
-                        <?php echo $r['children']; ?>
-                    </td>
-                    <td>
-                        <?php echo $r['room_pref']; ?>
-                    </td>
-                    <td>
-                        <?php echo $r['user_query']; ?>
+                        <?php echo $r['subscriber_email']; ?>
                     </td>
                 </tr>
                 <!-- printf("<div>%s - %s</div>", $r["username"],  $r["email"]); -->
@@ -152,7 +116,7 @@
                         echo "No results found";
                     }
                 }
-                
+
                 ?>
 
 

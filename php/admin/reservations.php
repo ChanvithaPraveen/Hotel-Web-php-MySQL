@@ -80,7 +80,7 @@
             <!-- TABLE CONSTRUCTION -->
             <table>
                 <tr>
-                    <th>Reservation Id</th>
+                    <th>Res. Id</th>
                     <th>Arrival</th>
                     <th>Departure</th>
                     <th>First Name</th>
@@ -90,6 +90,7 @@
                     <th>No. of Adults</th>
                     <th>No. of Children</th>
                     <th>Room Type</th>
+                    <th>User Message</th>
                 </tr>
                 <!-- PHP CODE TO FETCH DATA FROM ROWS -->
                 <?php
@@ -129,6 +130,9 @@
                     </td>
                     <td>
                         <?php echo $rows['room_pref']; ?>
+                    </td>
+                    <td>
+                        <?php echo $rows['user_query']; ?>
                     </td>
                 </tr>
                 <?php
@@ -186,6 +190,9 @@ if (isset($_POST["search"])) {
                     </td>
                     <td>
                         <?php echo $rows['room_pref']; ?>
+                    </td>
+                    <td>
+                        <?php echo $rows['user_query']; ?>
                     </td>
                 </tr>
                 <!-- printf("<div>%s - %s</div>", $r["username"],  $r["email"]); -->

@@ -39,9 +39,10 @@ if (isset($_POST['Reserve'])) {
     $adults = $_POST['adults'];
     $children = $_POST['children'];
     $room_pref = $_POST['room_pref'];
+    $user_query = $_POST['user_query'];
 
     //insert data into the database
-    $sql = "INSERT INTO reservation_table (arrival, departure, first_name, last_name, email, phone, adults, children, room_pref) VALUES ('$arrival', '$departure', '$first_name', '$last_name', '$email', '$phone', '$adults', '$children', '$room_pref')";
+    $sql = "INSERT INTO reservation_table (arrival, departure, first_name, last_name, email, phone, adults, children, room_pref, user_query) VALUES ('$arrival', '$departure', '$first_name', '$last_name', '$email', '$phone', '$adults', '$children', '$room_pref', '$user_query')";
     if (mysqli_query($conn, $sql)) {
 
     } else {
@@ -50,11 +51,15 @@ if (isset($_POST['Reserve'])) {
 
     // // Close connection
     // mysqli_close($conn);
-
-    header('location: ../php/reservations.php');
-}
-
 ?>
+<script>
+    alert("Reservation successful");
+</script>
+<?php
+    header('location: ../php/reservations.php');
+} ?>
+
+
 
 
 
@@ -254,7 +259,14 @@ if (isset($_POST['Reserve'])) {
                             <option value="Standard">Standard</option>
                             <option value="Deluxe">Deluxe</option>
                             <option value="Suite">Suite</option>
+                            <option value="Royal">Royal</option>
                         </select>
+                    </div>
+
+                    <label for="user_query">Message</label>
+                    <div class="field">
+                        <i class="fas fa-file"></i>
+                        <input id="user_query" type="text" name="user_query" placeholder="Your Message Here...">
                     </div>
 
 
@@ -267,9 +279,7 @@ if (isset($_POST['Reserve'])) {
                     <input type="submit" name="Reserve" value="Submit">
 
 
-                    <script>
-                        ("Your Reservation is Confirmed");
-                    </script>
+
 
                 </div>
             </form>

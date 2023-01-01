@@ -69,6 +69,12 @@
             </div>
         </div>
 
+        <div class="search-section">
+            <form name="form1" action="searchsubscribers.php" method="post">
+                <input type="text" name="search" id="search" maxlength="40" placeholder="Customer's UserName or Email">
+                <input type="submit" name="searchbtn" value="Search" id="searchbtn" />
+            </form>
+        </div>
 
         <section>
             <!-- TABLE CONSTRUCTION -->
