@@ -30,7 +30,7 @@
 
             <!-- navigation links -->
             <nav>
-                <input type="checkbox" id="check">
+                <!-- <input type="checkbox" id="check"> -->
                 <label for="check" class="checkbutton">
                     <i class="fas fa-bars"></i>
                 </label>
@@ -78,7 +78,7 @@
             <div class="mySlides fade">
                 <div class="numbertext">2 / 3</div>
                 <img src="images/img2.jpg" style="width:100%;">
-                <div class="text">Hotel Asia !</div>
+                <div class="text">Emerald Bay Inn !</div>
             </div>
             <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
@@ -97,40 +97,39 @@
         </div>
 
 
-        <!-- ******************************* Hotel Asia Body ******************************* -->
+        <!-- ******************************* Emerald Bay Inn Body ******************************* -->
 
         <div>
             <div class="top-topics">
-                <h1>Hotel Indigo</h1>
+                <h1>Emerald Bay Inn</h1>
 
-                <h2><strong>Hotel Asia is a 3-star hotel located in the heart of Colombo, Sri Lanka. It is a 5-minute
+                <h2><strong>Emerald Bay Inn is a 5-star hotel located in Trincomalee, Sri Lanka. It is a 5-minute
                         walk from
-                        the famous Galle Face Green and the National Museum. The hotel is 1.5 km from the Colombo Fort
-                        Railway Station and 1.6 km from the Colombo National Hospital. The Bandaranaike International
+                        the famous Galle Face Green and the National Museum. The hotel is 1.5 km from the Trincomalee Fort
+                        Railway Station and 1.6 km from the Trincomalee National Hospital. The Trincomalee International
                         Airport is 35 km away. The hotel offers free WiFi in all areas. The rooms are equipped with a
                         flat-screen TV with satellite channels, a kettle, a shower, a hairdryer and a desk. The rooms
                         are
                         equipped with a private bathroom with a bath. All rooms have a wardrobe. The hotel offers a
                         24-hour
                         front desk, room service and currency exchange for guests. The hotel also offers car rental. The
-                        hotel has a restaurant. The nearest airport is Bandaranaike International Airport, 35 km from
-                        Hotel
-                        Asia. </strong></h2>
-                <p> Hotel Indigo is a boutique hotel brand that is part of the InterContinental Hotels Group
-                    (IHG). The Hotel Indigo brand is known for its unique and locally inspired design, with each hotel
+                        hotel has a restaurant. The nearest airport is Trincomalee International Airport, 35 km from
+                        Emerald Bay Inn </strong></h2>
+                <p> Emerald Bay Inn is a boutique hotel brand that is part of the InterContinental Hotels Group
+                    (IHG). The Emerald Bay Inn brand is known for its unique and locally inspired design, with each hotel
                     featuring a different theme that reflects the culture and history of its location. Hotel Indigo
                     hotels are typically smaller in size than traditional hotels, and offer a more personalized and
                     intimate experience for guests.
 
-                    A Hotel Indigo website would typically include information about the brand's philosophy and values,
-                    as well as details about the various Hotel Indigo locations around the world. The website might also
+                    A Emerald Bay Inn website would typically include information about the brand's philosophy and values,
+                    as well as details about the various Emerald Bay Inn locations around the world. The website might also
                     include features such as a reservation system, a loyalty program, and information about amenities
                     and services offered at the hotels.
 
-                    Overall, a Hotel Indigo website would be designed to appeal to travelers who are looking for a more
+                    Overall, a Emerald Bay Inn website would be designed to appeal to travelers who are looking for a more
                     unique and personalized hotel experience, and who value design and local culture. It would likely
                     have a modern and stylish aesthetic, with a focus on visuals and imagery to showcase the brand's
-                    design philosophy and the various Hotel Indigo locations.</p>
+                    design philosophy and the various Emerald Bay Inn locations.</p>
             </div>
 
             <hr>
@@ -242,6 +241,6 @@
 
             <!-- copyright -->
             <div class="copyright">
-                <p>Copyright 2022 - HotelIndigo / hotelindigo@gmail.com</p>
+                <p>Copyright 2022 - EmeraldBayInn / emeraldbayinn@gmail.com</p>
             </div>
         </div>

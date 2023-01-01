@@ -94,7 +94,7 @@
         </div>
 
 
-        <!-- ******************************* Hotel Asia Body ******************************* -->
+        <!-- ******************************* Emerald Bay Inn Body ******************************* -->
 
         <div>
             <div class="top-topics">
@@ -226,6 +226,6 @@
 
             <!-- copyright -->
             <div class="copyright">
-                <p>Copyright 2022 - HotelIndigo / hotelindigo@gmail.com</p>
+                <p>Copyright 2022 - EmeraldBayInn / emeraldbayinn@gmail.com</p>
             </div>
         </div>

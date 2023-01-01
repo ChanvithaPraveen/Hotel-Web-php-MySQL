@@ -125,7 +125,7 @@ if (isset($_POST['Reserve'])) {
             <div class="mySlides fade">
                 <div class="numbertext">2 / 3</div>
                 <img src="../images/img7.jpg" style="width:100%;">
-                <div class="text">Hotel Asia !</div>
+                <div class="text">Visit Sri Lnaka !</div>
             </div>
             <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
@@ -144,7 +144,7 @@ if (isset($_POST['Reserve'])) {
         </div>
 
 
-        <!-- ******************************* Hotel Asia Body ******************************* -->
+        <!-- ******************************* Emerald Bay Inn Body ******************************* -->
 
         <div>
             <div class="top-topics">
@@ -364,6 +364,6 @@ if (isset($_POST['Reserve'])) {
 
             <!-- copyright -->
             <div class="copyright">
-                <p>Copyright 2022 - HotelIndigo / hotelindigo@gmail.com</p>
+                <p>Copyright 2022 - EmeraldBayInn / emeraldbayinn@gmail.com</p>
             </div>
         </div>

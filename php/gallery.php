@@ -73,7 +73,7 @@
             <div class="mySlides fade">
                 <div class="numbertext">2 / 3</div>
                 <img src="../images/img2.jpg" style="width:100%;">
-                <div class="text">Hotel Asia !</div>
+                <div class="text">Emerald Bay Inn!</div>
             </div>
             <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
@@ -161,7 +161,7 @@
 
             <!-- copyright -->
             <div class="copyright">
-                <p>Copyright 2022 - HotelIndigo / hotelindigo@gmail.com</p>
+                <p>Copyright 2022 - EmeraldBayInn / emeraldbayinn@gmail.com</p>
             </div>
         </div>
     </section>

@@ -54,11 +54,11 @@
         </div>
 
 
-        <!-- ******************************* Hotel Asia Body ******************************* -->
+        <!-- ******************************* Emerald Bay Inn Body ******************************* -->
 
         <div>
             <div class="top-topics">
-                <h1>Welcome to Hotel Indigo Admin Dashboard</h1>
+                <h1>Welcome to Emerald Bay Inn Admin Dashboard</h1>
                 <p>Welcome to the hotel admin dashboard! From here, you can manage all aspects of your hotel, including
                     reservations, guest information, room availability, and hotel subscribers. Use the navigation menu on
                     the top to access the different sections of the dashboard. If you have any questions or need
@@ -78,6 +78,6 @@
         <div class="footer-container">
             <!-- copyright -->
             <div class="copyright">
-                <p>Copyright 2022 - HotelIndigo / hotelindigo@gmail.com</p>
+                <p>Copyright 2022 - EmeraldBayInn / emeraldbayinn@gmail.com</p>
             </div>
         </div>

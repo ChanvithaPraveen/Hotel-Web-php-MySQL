@@ -74,12 +74,12 @@
             <div class="mySlides fade">
                 <div class="numbertext">2 / 3</div>
                 <img src="../images/img2.jpg" style="width:100%;">
-                <div class="text">Hotel Asia !</div>
+                <div class="text">Emerald Bay Inn !</div>
             </div>
             <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
                 <img src="../images/img3.jpg" style="width:100%">
-                <div class="text">About Us</div>
+                <div class="text">Visit Sri Lanka</div>
             </div>
 
             <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -93,7 +93,7 @@
         </div>
 
 
-        <!-- ******************************* Hotel Asia Body ******************************* -->
+        <!-- ******************************* Emerald Bay Inn Body ******************************* -->
 
         <div>
             <div class="top-topics">
@@ -110,7 +110,7 @@
                         truly
                         memorable.</strong>
                     <br /><br />
-                    We are located in the heart of Colombo, Sri Lanka's vibrant capital city. Our hotel offers easy
+                    We are located in the heart of Trincomalee, Sri Lanka's a kind of capital city. Our hotel offers easy
                     access to
                     all of the best attractions and amenities, including shopping centers, cultural sites, and dining
                     options. Our guest rooms and suites are impeccably appointed, with sumptuous beds, fine linens, and
@@ -165,6 +165,6 @@
 
         <!-- copyright -->
         <div class="copyright">
-            <p>Copyright 2022 - HotelIndigo / hotelindigo@gmail.com</p>
+            <p>Copyright 2022 - EmeraldBayInn / emeraldbayinn@gmail.com</p>
         </div>
         </div>

@@ -73,7 +73,7 @@
             <div class="mySlides fade">
                 <div class="numbertext">2 / 3</div>
                 <img src="../images/img2.jpg" style="width:100%;">
-                <div class="text">Hotel Asia !</div>
+                <div class="text">Emerald Bay Inn!</div>
             </div>
             <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
@@ -104,7 +104,7 @@
                     romantic getaway, a family vacation, or a business trip, we are committed to making your stay with
                     us as memorable and enjoyable as possible. Please don't hesitate to reach out to us at any time with
                     your questions or concerns. We look forward to welcoming you to our hotel and making your visit
-                    truly unforgettable. <br><br> Email: info@hotelindigo.com <br> Phone: +94 11 2 123 456
+                    truly unforgettable. <br><br> Email: info@emeraldbayinn.com <br> Phone: +94 11 2 123 456
                 </p>
             </div>
         </div>
@@ -143,6 +143,6 @@
 
             <!-- copyright -->
             <div class="copyright">
-                <p>Copyright 2022 - HotelIndigo / hotelindigo@gmail.com</p>
+                <p>Copyright 2022 - EmeraldBayInn / emeraldbayinn@gmail.com</p>
             </div>
         </div>
