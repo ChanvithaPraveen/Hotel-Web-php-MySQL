@@ -105,7 +105,8 @@
 
                 <h2><strong>Emerald Bay Inn is a 5-star hotel located in Trincomalee, Sri Lanka. It is a 5-minute
                         walk from
-                        the famous Galle Face Green and the National Museum. The hotel is 1.5 km from the Trincomalee Fort
+                        the famous Galle Face Green and the National Museum. The hotel is 1.5 km from the Trincomalee
+                        Fort
                         Railway Station and 1.6 km from the Trincomalee National Hospital. The Trincomalee International
                         Airport is 35 km away. The hotel offers free WiFi in all areas. The rooms are equipped with a
                         flat-screen TV with satellite channels, a kettle, a shower, a hairdryer and a desk. The rooms
@@ -116,17 +117,21 @@
                         hotel has a restaurant. The nearest airport is Trincomalee International Airport, 35 km from
                         Emerald Bay Inn </strong></h2>
                 <p> Emerald Bay Inn is a boutique hotel brand that is part of the InterContinental Hotels Group
-                    (IHG). The Emerald Bay Inn brand is known for its unique and locally inspired design, with each hotel
+                    (IHG). The Emerald Bay Inn brand is known for its unique and locally inspired design, with each
+                    hotel
                     featuring a different theme that reflects the culture and history of its location. Hotel Indigo
                     hotels are typically smaller in size than traditional hotels, and offer a more personalized and
                     intimate experience for guests.
 
-                    A Emerald Bay Inn website would typically include information about the brand's philosophy and values,
-                    as well as details about the various Emerald Bay Inn locations around the world. The website might also
+                    A Emerald Bay Inn website would typically include information about the brand's philosophy and
+                    values,
+                    as well as details about the various Emerald Bay Inn locations around the world. The website might
+                    also
                     include features such as a reservation system, a loyalty program, and information about amenities
                     and services offered at the hotels.
 
-                    Overall, a Emerald Bay Inn website would be designed to appeal to travelers who are looking for a more
+                    Overall, a Emerald Bay Inn website would be designed to appeal to travelers who are looking for a
+                    more
                     unique and personalized hotel experience, and who value design and local culture. It would likely
                     have a modern and stylish aesthetic, with a focus on visuals and imagery to showcase the brand's
                     design philosophy and the various Emerald Bay Inn locations.</p>
@@ -153,8 +158,8 @@
                     <h1>Standard Accomodation</h1>
                 </div>
                 <div class="des">
-                    <p>Book your stay at least 30 days in
-                        advance and receive a 10% discount on your room rate.</p>
+                    <p>Our standard rooms start at just $79 per night, making them an affordable choice for travelers on
+                        a budget.</p>
                     <button><a href="./php/roomdetails.php">Read More...</a></button>
                 </div>
             </div>
@@ -168,8 +173,8 @@
                     <h1>Deluxe Accomodation</h1>
                 </div>
                 <div class="des">
-                    <p>Stay with us for 5 nights or more
-                        and receive a 15% discount on your room rate.</p>
+                    <p>Stay in one of our Deluxe rooms for just $129 per night. With a comfortable bed, flat-screen TV,
+                        and free WiFi, it's the perfect place to relax after a day of exploring the city.</p>
                     <button><a href="./php/roomdetails.php">Read More...</a></button>
                 </div>
             </div>
@@ -183,8 +188,9 @@
                     <h1>Suite Accomodation</h1>
                 </div>
                 <div class="des">
-                    <p>Enjoy a relaxing weekend at our hotel and
-                        receive a 20% discount on your room rate.</p>
+                    <p>Treat yourself to a memorable stay in our suite with a fireplace and Suite room for $269 per
+                        night. With extra space and amenities, it's the perfect choice for a romantic getaway or special
+                        occasion.</p>
                     <button><a href="./php/roomdetails.php">Read More...</a></button>
                 </div>
             </div>
@@ -198,8 +204,9 @@
                     <h1>Royal Accomodation</h1>
                 </div>
                 <div class="des">
-                    <p>Bring the whole family along and receive a 25%
-                        discount on your room rate for up to 2 children under the age of 12.</p>
+                    <p>Experience the ultimate in luxury with our Royal room, available for $499 per night. With
+                        breathtaking views, a private balcony, and a Jacuzzi tub, you'll feel like royalty during your
+                        stay.</p>
                     <button><a href="./php/roomdetails.php">Read More...</a></button>
                 </div>
             </div>

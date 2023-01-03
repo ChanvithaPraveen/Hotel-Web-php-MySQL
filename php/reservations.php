@@ -177,6 +177,7 @@ if (isset($_POST['Reserve'])) {
                             <label for="arrival">Arrival</label>
                             <div class="field">
                                 <input id="arrival" type="date" name="arrival" required>
+
                             </div>
                         </div>
                         <div class="gap"></div>
