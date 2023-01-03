@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Indigo</title>
+    <title>Emerald Bay Inn</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -135,7 +135,7 @@
             <hr>
 
             <div class="top-topics">
-                <h1>Exclusive Offers</h1>
+                <h1>Hotel Accomodation Types</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatibus at assumenda, unde
                     error, illum laudantium, perferendis sed aut asperiores quisquam qui voluptate voluptatum suscipit
                     quis expedita doloribus quaerat non?</p>
@@ -147,60 +147,60 @@
         <div class="card-container">
             <div class="card">
                 <div class="image">
-                    <img src="./images/img14.png">
+                    <img src="./images/img20.jpg">
                 </div>
                 <div class="title">
-                    <h1>Early Bird Special</h1>
+                    <h1>Standard Accomodation</h1>
                 </div>
                 <div class="des">
                     <p>Book your stay at least 30 days in
                         advance and receive a 10% discount on your room rate.</p>
-                    <button><a href="./php/offerdetails.php">Read More...</a></button>
+                    <button><a href="./php/roomdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->
 
             <div class="card">
                 <div class="image">
-                    <img src="./images/img13.jpg">
+                    <img src="./images/img18.jpg">
                 </div>
                 <div class="title">
-                    <h1>Stay Longer</h1>
+                    <h1>Deluxe Accomodation</h1>
                 </div>
                 <div class="des">
                     <p>Stay with us for 5 nights or more
                         and receive a 15% discount on your room rate.</p>
-                    <button><a href="./php/offerdetails.php">Read More...</a></button>
+                    <button><a href="./php/roomdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->
 
             <div class="card">
                 <div class="image">
-                    <img src="./images/img16.jpg">
+                    <img src="./images/img19.jpg">
                 </div>
                 <div class="title">
-                    <h1>Weekend Getaway</h1>
+                    <h1>Suite Accomodation</h1>
                 </div>
                 <div class="des">
                     <p>Enjoy a relaxing weekend at our hotel and
                         receive a 20% discount on your room rate.</p>
-                    <button><a href="./php/offerdetails.php">Read More...</a></button>
+                    <button><a href="./php/roomdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->
 
             <div class="card">
                 <div class="image">
-                    <img src="./images/img15.jpg">
+                    <img src="./images/img17.jpg">
                 </div>
                 <div class="title">
-                    <h1>Family Fun</h1>
+                    <h1>Royal Accomodation</h1>
                 </div>
                 <div class="des">
                     <p>Bring the whole family along and receive a 25%
                         discount on your room rate for up to 2 children under the age of 12.</p>
-                    <button><a href="./php/offerdetails.php">Read More...</a></button>
+                    <button><a href="./php/roomdetails.php">Read More...</a></button>
                 </div>
             </div>
             <!--cards -->

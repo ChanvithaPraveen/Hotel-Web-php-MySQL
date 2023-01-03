@@ -1,13 +1,14 @@
 <?php include('server.php') ?>
 <?php include('subscribe.php') ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Location</title>
+    <title>Room Details</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -31,7 +32,7 @@
             <nav>
                 <ul>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/index.php">Home</a></li>
-                    <li><a href="http://localhost/Hotel-Web-php-MySQL/php/about.php">About</a></li>
+                    <li><a class="active" href="http://localhost/Hotel-Web-php-MySQL/php/about.php">About</a></li>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/gallery.php">Gallery</a></li>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/offers.php">Offers</a></li>
                     <!-- <li><a href="http://localhost/Hotel-Web-php-MySQL/php/reservations.php">Reservations</a></li> -->
@@ -39,7 +40,7 @@
                         echo '<li><a href="http://localhost/Hotel-Web-php-MySQL/php/reservations.php">Reservations</a></li>';
 
                     } ?>
-                    <li><a class="active" href="http://localhost/Hotel-Web-php-MySQL/php/location.php">Location</a></li>
+                    <li><a href="http://localhost/Hotel-Web-php-MySQL/php/location.php">Location</a></li>
                     <li><a href="http://localhost/Hotel-Web-php-MySQL/php/contact.php">Contact</a></li>
                     <!-- <li><a href="http://localhost/Hotel-Web-php-MySQL/php/logout.php">Logout</a></li> -->
                     <?php if (isset($_SESSION['email'])) {
@@ -92,42 +93,42 @@
         </div>
 
 
-        <!-- ******************************* Location Body ******************************* -->
+        <!-- ******************************* Emerald Bay Inn Body ******************************* -->
 
         <div>
             <div class="top-topics">
-                <h1>Our Location Area</h1>
-                <p>We are located in the heart of Trincomalee, Sri Lanka's a kind of capital city. Our hotel offers easy
-                    access to all of the best attractions and amenities, including shopping centers, cultural sites, and
-                    dining options. Our guest rooms and suites are impeccably appointed, with sumptuous beds, fine
-                    linens, and state-of-the-art amenities. We also offer a range of dining options, from casual cafes
-                    to fine dining restaurants, as well as a full-service spa and fitness center. Whether you're in town
-                    for business or pleasure, we have everything you need to make your stay with us truly memorable and
-                    comfortable.
+                <h1>About Standard Accomodation Facilities</h1>
+
+                <img src="../images/img19.jpg" height="30%" width="30%" alt="image">
+
+                <br><br>
+                <p><strong>Welcome to our luxurious hotel, where we strive to provide our guests with the ultimate
+                        in
+                        comfort
+                        and sophistication.</strong>
+                    <br /><br />
+                    Experience the perfect getaway with a stay at this 5-star Emerald Bay Inn Hotel, offering an infinity pool,
+                    a fitness centre and a plush spa.<br/><br/>
+
+                    Emerald Bay Inn Hotel offers an outdoor pool, sauna room, massage centre and tennis court. <br/>
+                    Try Indian food at the nearby restaurants Flavors (300 m) and Ports of Call (1.1 km).<br/>
+                    Enjoy easy connectivity to city attractions via Secretariat Halt Train Station (1.3 km).<br/>
+                    Emerald Bay Inn Hotel features 7 on-site restaurants serving a range of local and international dishes.
+                    <br /><br />
+                    Fee for buffet breakfast: LKR 12 for adults and LKR 6 for children (approximately)|Airport shuttle
+                    fee: LKR 5700 per vehicle (one way)|Airport shuttle fee per child: LKR 5700 (one-way), (from 1 to 10
+                    years old)|Early check-in is available for a fee (subject to availability)|Late check-out is
+                    available for a fee (subject to availability)|Rollaway bed fee: LKR 15.0 per day
+                    Extra-person charges may apply and vary depending on property policy|Government-issued photo
+                    identification and a credit card, debit card, or cash deposit may be required at check-in for
+                    incidental charges|Special requests are subject to availability upon check-in and may incur
+                    additional charges; special requests cannot be guaranteed|Safety features at this property include a
+                    fire extinguisher, a smoke detector, a security system, and a first aid kit|Be prepared: check the
+                    latest COVID-19 travel requirements and measures in place for this destination before you travel.
                 </p>
+
             </div>
         </div>
-
-        <!-- map section -->
-        <div id="map"></div>
-        <script>
-            const API_KEY = process.env.API_KEY;
-            console.log(API_KEY);
-            function initMap() {
-                var location = { lat: 8.593193, lng: 81.223620 };
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 4,
-                    center: location
-                });
-                var marker = new google.maps.Marker({
-                    position: location,
-                    map: map
-                });
-            }
-        </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
-
-        </script>
 
         <!-- ******************************* Footer ******************************* -->
 
@@ -156,12 +157,13 @@
                                 <input type="submit" class="subscribebtn" name="Subscribe">
                             </form>
                         </div>
-                    </li>
-                </ul>
             </div>
+            </li>
+            </ul>
+        </div>
 
-            <!-- copyright -->
-            <div class="copyright">
-                <p>Copyright 2022 - EmeraldBayInn / emeraldbayinn@gmail.com</p>
-            </div>
+        <!-- copyright -->
+        <div class="copyright">
+            <p>Copyright 2022 - EmeraldBayInn / emeraldbayinn@gmail.com</p>
+        </div>
         </div>
