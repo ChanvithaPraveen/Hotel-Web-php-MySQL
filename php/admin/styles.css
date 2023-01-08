@@ -59,11 +59,11 @@ ul a {
 
 /* logo image */
 .nav-section a img {
-  margin-top: 20px;
-  margin-bottom: 0px;
-  width: 20rem;
-  height: 2;
-}
+    margin: 20px;
+    margin-bottom: 0px;
+    width: 10rem;
+    height: 2;
+  }
 
 /* navbar unodered list */
 .nav-section nav ul {

@@ -10,8 +10,6 @@ $errors = array();
 // connect to the database
 $db = mysqli_connect('localhost', 'root', '', 'db_hotel_management');
 
-
-
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
     // receive all input values from the form
