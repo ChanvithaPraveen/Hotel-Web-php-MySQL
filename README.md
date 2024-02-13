@@ -1,8 +1,23 @@
-# Hotel-Web-php-MySQL
+<h1 align="center">
+  <br>
+  Hotel-Web-php-MySQL
+  <br>
+</h1>
 
-Welcome to the Hotel Website repository! This repository contains the source code for a comprehensive hotel website, providing both user and admin access levels. Below is an overview of the features and functionalities available in the website.
+<h4 align="center">Welcome to the Hotel Website repository! This repository contains the source code for a comprehensive hotel website, providing both user and admin access levels. Below is an overview of the features and functionalities available in the website.</h4>
 
-## Features
+<p align="center">
+  <a href="https://"><img src="https://img.shields.io/badge/language-PHP-2ea42f?logo=php" alt="language - php"></a>
+  <a href="https://"><img src="https://img.shields.io/badge/language-HTML-purple?logo=HTML" alt="language - HTML"></a>
+  <a href="https://"><img src="https://img.shields.io/badge/language-CSS-red?logo=CSS" alt="language - CSS"></a>
+  <a href="https://"><img src="https://img.shields.io/badge/language-MySQL-blue?logo=MySQL" alt="language - MySQL"></a>
+  <a href="https://"><img src="https://img.shields.io/badge/Web Site-localhost-orange?logo=IDE" alt="Console application"></a>
+  <br>
+  <a href="#description">Description</a> 
+</p>
+
+
+## Description
 
 ### User Access Level
 - **Signup:** Users can create a new account by providing their details.
