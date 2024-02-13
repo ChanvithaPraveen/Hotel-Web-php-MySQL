@@ -34,4 +34,14 @@ To deploy the hotel website locally, follow these steps:
 
 Contributions to the development of the hotel website are welcome! If you have any suggestions, bug fixes, or new features to propose, please submit a pull request or open an issue on GitHub.
 
+![Screenshot](1.png)
+![Screenshot](4.png)
+![Screenshot](2.png)
+![Screenshot](5.png)
+![Screenshot](3.png)
+![Screenshot](6.png)
+![Screenshot](8.png)
+![Screenshot](7.png)
+![Screenshot](9.png)
+
 ## For see the UI of the output website, refer Readme Images folder in this repo itself.
