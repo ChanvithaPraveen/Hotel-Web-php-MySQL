@@ -13,7 +13,6 @@
   <a href="https://"><img src="https://img.shields.io/badge/language-MySQL-blue?logo=MySQL" alt="language - MySQL"></a>
   <a href="https://"><img src="https://img.shields.io/badge/Web Site-localhost-orange?logo=IDE" alt="Console application"></a>
   <br>
-  <a href="#description">Description</a> 
 </p>
 
 
